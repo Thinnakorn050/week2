@@ -1,4 +1,4 @@
-//-----------Exercise 3: Get a Node.js JSON array.----------------//
+// //-----------Exercise 3: Get a Node.js JSON array.----------------//
 const con = require('./db');
 const express = require('express');
 const bcrypt = require('bcrypt');
@@ -51,4 +51,5 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log('Server is running at ' + PORT);
 });
+
 
